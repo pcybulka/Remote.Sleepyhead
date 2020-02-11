@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace Remote.Sleepyhead.Library.Service
 {
-    class ManagementSH
+    public class ManagementSH
     {
+        Bluetooth x = new Bluetooth();
+        public void Start()
+        {
+            x.Start();
+        }
+        public void Stop()
+        {
+            x.Stop();
+        }
+        public void Pause()
+        {
+
+        }
     }
 }
